@@ -1,0 +1,20 @@
+{% extends 'base.html' %} {% block title %} Homepage {% endblock %} {% block body %}
+
+<div class="container">
+    <h1>Hello World</h1>
+    <img src={{url_for( 'static', filename="drilldown.jpg" )}} height="250" width="250" />
+    <ol>
+        {% for i in ls%}
+        <li>{{ i }}</li>
+        {% endfor %}
+    </ol>
+    {% if 'Pine' in ls %}
+    <p> Pine is present</p>
+    {% elif 'mango' in ls %}
+    <p>Mango is present</p>
+    {% else %}
+    <p>None present</p>
+    {% endif %}
+    <button type="submit" class="btn btn-primary">Login</button>
+</div>
+{% endblock %}

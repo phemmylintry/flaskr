@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4b6f2603-8158-4bc6-bf77-9a79d14e0d11" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Flask Main" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bIuXLxwPN4Qf4UlEryNVDv4wYg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RunManager">
+    <configuration name="flaskr" type="Python.FlaskServer">
+      <module name="flaskr" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4b6f2603-8158-4bc6-bf77-9a79d14e0d11" name="Default Changelist" comment="" />
+      <created>1588331974340</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588331974340</updated>
+      <workItem from="1588331985248" duration="1750000" />
+      <workItem from="1588339505391" duration="1248000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1553" height="221" key="GridCell.Tab.0.bottom" timestamp="1588340650143">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1553" height="221" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1588340650143" />
+    <state width="1553" height="221" key="GridCell.Tab.0.center" timestamp="1588340650143">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1553" height="221" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1588340650143" />
+    <state width="1553" height="221" key="GridCell.Tab.0.left" timestamp="1588340650142">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1553" height="221" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1588340650142" />
+    <state width="1553" height="221" key="GridCell.Tab.0.right" timestamp="1588340650143">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1553" height="221" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1588340650143" />
+    <state x="323" y="71" key="SettingsEditor" timestamp="1588340547950">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="323" y="71" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1588340547950" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/flaskr$flaskr.coverage" NAME="flaskr Coverage Results" MODIFIED="1588340598235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+</project>
