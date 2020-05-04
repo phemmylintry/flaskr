@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, session
+from flask import Flask, render_template, request, session, redirect, flash
 from flask_bootstrap import Bootstrap
 from flask_mysqldb import MySQL
 from werkzeug.security import generate_password_hash
@@ -33,6 +33,8 @@ def index():
         cur = mysql.connection.cursor()
         cur.execute("INSERT INTO details(name, email) VALUES (%s, %s)", (name, email))
         mysql.connection.commit()
+        flash('Registered', 'success')
+        # return redirect('/about')
     # ls = ['mango', 'Apple', 'orange']
     return render_template('index.html')
     #return url_for('about')

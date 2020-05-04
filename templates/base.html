@@ -6,14 +6,4 @@
     <title> {% block title %} {% endblock %} </title>
 </head>
 
-<body>
-    <div>
-        {% block content %}
-        <div>
-            {% block body %} {% endblock %}
-        </div>
-        {% endblock %}
-    </div>
-</body>
-
-</html>
+{% block content %} {% with messages = get_flashed_messages(with_categories=true) %} {% endblock %} {% endblock %}
