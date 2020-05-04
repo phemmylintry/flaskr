@@ -15,6 +15,11 @@
     {% else %}
     <p>None present</p>
     {% endif %}
+
+    <form method="POST">
+        <input type="password" name="password" />
+        <input type="submit" name="login" />
+    </form>
     <button type="submit" class="btn btn-primary">Login</button>
 </div>
 {% endblock %}

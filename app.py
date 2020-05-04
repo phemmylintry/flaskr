@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 from flask_bootstrap import Bootstrap
 from flask_mysqldb import MySQL
 import yaml
@@ -16,17 +16,20 @@ app.config['MYSQL_DB'] = db['mysql_db']
 mysql = MySQL(app)
 
 
-@app.route('/')
+@app.route('/', methods=['GET', 'POST'])
 def hello_world():
-    cur = mysql.connection.cursor()
+    # cur = mysql.connection.cursor()
     # cur.execute("INSERT INTO user VALUES(%s)", ['Mike'])
     # mysql.connection.commit()
-    result = cur.execute("SELECT * FROM user")
-    if result > 0:
-        users = cur.fetchall()
-        return users[1]
-    # ls = ['mango', 'Apple', 'orange']
-    return render_template('index.html')
+    # result = cur.execute("SELECT * FROM user")
+    # if result > 0:
+    #     users = cur.fetchall()
+    #     return users[1]
+    if request.method == 'POST':
+        return request.form['password']
+        # return 'Registered'
+    ls = ['mango', 'Apple', 'orange']
+    return render_template('index.html', ls=ls)
     #return url_for('about')
 
 # @app.route('/about')
