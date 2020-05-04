@@ -5,11 +5,10 @@ from werkzeug.security import generate_password_hash
 import yaml
 import os
 
-
 app = Flask(__name__)
 Bootstrap(app)
 
-#configure db
+# configure db
 db = yaml.load(open('db.yaml'))
 app.config['SECRET_KEY'] = os.urandom(24)
 app.config['MYSQL_HOST'] = db['mysql_host']
@@ -37,7 +36,8 @@ def index():
         # return redirect('/about')
     # ls = ['mango', 'Apple', 'orange']
     return render_template('index.html')
-    #return url_for('about')
+    # return url_for('about')
+
 
 @app.route('/about')
 def about():
@@ -48,6 +48,7 @@ def about():
         session['name'] = details[0]['name']
         return render_template('about.html', details=details)
 
+
 # @app.route('/css')
 # def css():
 #     return render_template('css.html')
@@ -55,6 +56,7 @@ def about():
 @app.errorhandler(404)
 def page_not_found(e):
     return 'Page Not Found'
+
 
 if __name__ == '__main__':
     app.run(debug=True)
