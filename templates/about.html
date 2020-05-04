@@ -1,0 +1,13 @@
+{% extends 'base.html' %} {% block body %}
+<div class="container">
+    <table>
+        {% for detail in details %}
+        <tr>
+            <td>{{ detail.name }}</td>
+            <td>{{ detail.email }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+
+{% endblock %}
